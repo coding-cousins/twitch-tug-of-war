@@ -1,0 +1,19 @@
+.Header {
+  width: 100vw;
+  height: 15vh;
+  position: sticky;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: radial-gradient(circle, #9147ff, rgba(65, 49, 94, 1) 100%);
+
+  z-index: 500;
+  a {
+    height: 100%;
+    img {
+      height: auto;
+      width: 350px;
+    }
+  }
+}

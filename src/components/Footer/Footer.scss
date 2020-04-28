@@ -1,0 +1,25 @@
+.Footer {
+  color: black;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: absolute;
+  bottom: 2.5%;
+  left: 2.5%;
+
+  p {
+    font-weight: 800;
+    opacity: .5;
+  }
+
+  .icons {
+    display: flex;
+    width: max-content;
+
+    svg {
+      transform: scale(2);
+      opacity: .5;
+      margin: 1rem;
+    }
+  }
+}

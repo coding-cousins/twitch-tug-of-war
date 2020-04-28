@@ -1,0 +1,77 @@
+.WinnerDisplay {
+  width: 50%;
+  height: 50%;
+  border: 5px solid #8a45f1;
+  border-radius: 20px;
+  background: rgb(170, 170, 170);
+
+  position: absolute;
+  top: 10%;
+  animation: fade-in-down 2s forwards;
+  z-index: 101;
+  display: flex;
+  flex-direction: column;
+
+  .endgame-options {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 50%;
+
+    button {
+      font-size: 1.5rem;
+      font-weight: 800;
+      border-radius: 10px;
+      height: 4rem;
+      width: 12rem;
+      color: rgb(255, 255, 255);
+      background-color: rgb(20, 20, 20);
+      border: 3px solid rgb(255, 255, 255);
+      font-family: "Roboto";
+      outline: none;
+      cursor: pointer;
+      transition: all 0.5s ease-in;
+
+      &:hover {
+        transition: all 0.5s ease-out;
+        background-color: rgb(255, 255, 255);
+        color: rgb(20, 20, 20);
+        border: 3px solid rgb(20, 20, 20);
+      }
+    }
+
+    p {
+      font-size: 2rem;
+      font-weight: 700;
+    }
+  }
+
+  .endgame-results {
+    height: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    h1 {
+      text-align: center;
+      color: rgb(20, 20, 20);
+      font-size: 2rem;
+
+      span {
+        font-weight: 800;
+      }
+    }
+  }
+}
+
+@keyframes fade-in-down {
+  from {
+    opacity: 0;
+    transform: translateY(-100%);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0%);
+  }
+}

@@ -1,0 +1,75 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;0,900;1,700&display=swap");
+
+.TugOfWarForm {
+  width: 100%;
+  height: 70%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  background: url("../../assets/vs.png"), rgb(20, 20, 20);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: top;
+  position: relative;
+  border-top: 10px solid #9147ff;
+
+  .input-container {
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 90%;
+
+    .input {
+      margin: 0 2rem;
+      width: 25%;
+      color: white;
+      border: 2px solid white;
+      background-color: rgba(26, 26, 26, 0.25);
+      border-radius: 5px;
+      
+      .MuiFormLabel-root,
+      .MuiInputBase-input {
+        font-size: 1.25rem;
+        color: white;
+        outline: none;
+      }
+
+      .MuiFilledInput-underline:before {
+        border-color: white;
+      }
+
+      .MuiInputBase-root::after {
+        border: 2px solid white;
+        border-color: rgb(255, 255, 255);
+      }
+    }
+  }
+
+  button {
+    margin: 1rem;
+    font-size: 1.5rem;
+    font-weight: 800;
+    border-radius: 10px;
+    height: 4rem;
+    width: 12rem;
+    color: #9147ff;
+    background-color: rgb(20, 20, 20);
+    border: 3px solid #9147ff;
+    font-family: "Roboto";
+    position: absolute;
+    bottom: 25px;
+    cursor: pointer;
+    transition: all 0.5s ease-in;
+    box-shadow: 0px 0px 10px 5px rgba(0,0,0,0.49);
+    z-index: 1;
+
+    &:hover {
+      transition: all 0.5s ease-out;
+      background-color: #9147ff;
+      color: rgb(20, 20, 20);
+      border: 3px solid rgb(20, 20, 20);
+    }
+  }
+}
