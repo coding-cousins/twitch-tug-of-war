@@ -1,7 +1,7 @@
 # Twitch Tug of War
 ### [Deployed site on Heroku (please allow a few seconds for site to load.)](https://twitch-tug-of-war.herokuapp.com/)
 
-Twitch Tug of War is a web-app built for streamers to see their chatroom battle! Enter 2 Twitch streamers, and see who has the more powerful/active chatroom! Each chat message is worth one point towards the streamers team, but bonus emotes are worth 5!
+Twitch Tug of War is a web-app built for streamers to see their chatroom battle! Enter 2 Twitch streamers, and see who has the more powerful/active chatroom! Each chat message is worth one point towards the streamers team, bonus emotes are worth 5!
 
 ## Tech Used
 
