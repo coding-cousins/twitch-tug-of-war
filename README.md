@@ -15,4 +15,4 @@ Twitch Tug of War is a web-app built for streamers to see their chatroom battle!
 
 ## Developed By
 - Danny Hogan - [https://github.com/dannyhogan](https://github.com/dannyhogan)
-- Tyler Corbett - [https://github.com/dannyhogan](https://github.com/tylercorbett)
+- Tyler Corbett - [https://github.com/tylercorbett](https://github.com/tylercorbett)
